@@ -1,0 +1,28 @@
+{
+  "name": "vitelab",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -b --noEmit",
+    "lint": "eslint .",
+    "format": "prettier -w .",
+    "format:check": "prettier -c ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "eslint": "^9",
+    "fake-indexeddb": "^6.2.5",
+    "jsdom": "^26",
+    "prettier": "^3",
+    "typescript": "^5.9",
+    "typescript-eslint": "^8",
+    "vitest": "^3"
+  }
+}

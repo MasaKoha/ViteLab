@@ -1,0 +1,37 @@
+{
+  "name": "@vitelab/core",
+  "version": "0.0.0",
+  "description": "Dependency-free TypeScript helpers for time, binary/base64, text normalization, math, and color.",
+  "type": "module",
+  "license": "MIT",
+  "author": "MasaKoha",
+  "keywords": [
+    "typescript",
+    "vite",
+    "utilities",
+    "base64",
+    "color",
+    "hsl",
+    "text-encoding"
+  ],
+  "homepage": "https://github.com/MasaKoha/ViteLab/tree/main/packages/core#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasaKoha/ViteLab.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/MasaKoha/ViteLab/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b"
+  }
+}

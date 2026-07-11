@@ -1,0 +1,36 @@
+{
+  "name": "@vitelab/storage",
+  "version": "0.0.0",
+  "description": "Low-level IndexedDB Promise wrapper and a typed key-value store factory (defineStore).",
+  "type": "module",
+  "license": "MIT",
+  "author": "MasaKoha",
+  "keywords": [
+    "typescript",
+    "vite",
+    "indexeddb",
+    "storage",
+    "key-value",
+    "browser"
+  ],
+  "homepage": "https://github.com/MasaKoha/ViteLab/tree/main/packages/storage#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasaKoha/ViteLab.git",
+    "directory": "packages/storage"
+  },
+  "bugs": {
+    "url": "https://github.com/MasaKoha/ViteLab/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b"
+  }
+}

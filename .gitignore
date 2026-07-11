@@ -1,0 +1,15 @@
+# 機密・非公開ファイル（公開リポジトリに含めない）
+*.secret.*
+docs/**/*.secret.md
+.env
+.env.local
+
+# ローカル環境固有ファイル
+.claude/settings.local.json
+
+# 依存・ビルド成果物
+node_modules/
+dist/
+.wrangler/
+*.tsbuildinfo
+coverage/

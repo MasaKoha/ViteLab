@@ -1,0 +1,40 @@
+{
+  "name": "@vitelab/dj-domain",
+  "version": "0.0.0",
+  "description": "DJ tracklist domain logic: Camelot/musical key notation, a shared Track model, and rekordbox TSV / m3u8 parsers.",
+  "type": "module",
+  "license": "MIT",
+  "author": "MasaKoha",
+  "keywords": [
+    "typescript",
+    "dj",
+    "rekordbox",
+    "camelot",
+    "m3u8",
+    "tracklist",
+    "music"
+  ],
+  "homepage": "https://github.com/MasaKoha/ViteLab/tree/main/packages/dj-domain#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasaKoha/ViteLab.git",
+    "directory": "packages/dj-domain"
+  },
+  "bugs": {
+    "url": "https://github.com/MasaKoha/ViteLab/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@vitelab/core": "*"
+  }
+}
