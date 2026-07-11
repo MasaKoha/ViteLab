@@ -1,5 +1,7 @@
 # @vitelab/dj-domain
 
+[日本語版はこちら](README.ja.md)
+
 Core domain logic for DJ tracklists: Camelot ⇄ musical key notation, a shared normalized `Track` model, and parsers for rekordbox TSV and m3u8 exports. Text normalization and encoding detection are delegated to [`@vitelab/core`](../core) so there is no duplicated logic.
 
 OpenKey notation is intentionally unsupported (neither source app used it), though `KeyNotation` is typed so it can be extended later.

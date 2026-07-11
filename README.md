@@ -1,5 +1,7 @@
 # ViteLab
 
+[日本語版はこちら](README.ja.md)
+
 Shared TypeScript utilities for Vite-based web apps — dependency-free core helpers, a typed IndexedDB storage layer, and DJ tracklist domain logic. Extracted from several personal projects (SyncImageDeck, ViewerStudioForNP2, dj-tracklist) to eliminate copy-pasted code and keep behavior consistent across apps.
 
 The monorepo is a plain npm workspace built with `tsc -b` project references and tested with Vitest. Every package ships ESM only with type declarations.
