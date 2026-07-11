@@ -1,5 +1,7 @@
 # @vitelab/core
 
+[日本語版はこちら](README.ja.md)
+
 Dependency-free TypeScript helpers shared across ViteLab apps. Every function is a pure function with zero runtime dependencies; DOM/canvas access (e.g. reading pixels for `extractAccent`) is the caller's responsibility.
 
 ```ts

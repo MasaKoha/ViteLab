@@ -1,5 +1,7 @@
 # @vitelab/storage
 
+[日本語版はこちら](README.ja.md)
+
 A low-level IndexedDB Promise wrapper plus `defineStore`, a typed key-value store factory. It unifies three near-identical IndexedDB implementations (SyncImageDeck / ViewerStudioForNP2 / dj-tracklist) that had drifted apart in connection caching, transaction-completion handling, and error messages.
 
 Key behaviors:
