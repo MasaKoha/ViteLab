@@ -10,7 +10,7 @@
     "build": "tsc -b",
     "test": "vitest run",
     "test:watch": "vitest",
-    "typecheck": "tsc -b --noEmit",
+    "typecheck": "tsc -b",
     "lint": "eslint .",
     "format": "prettier -w .",
     "format:check": "prettier -c ."
